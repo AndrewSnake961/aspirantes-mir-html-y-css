@@ -1,82 +1,52 @@
 html {
-  box-sizing: border-box;
-  
-}
-*, *:before, *:after {
-  box-sizing: inherit;
-}
+    box-sizing: border-box;
+    
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
 
-.contenedor {
+.login{
+    font-family: "Helvetica Neue",Helvetica, Arial, sans-serif;
     width: 300px;
     padding: 20px;
     border-radius: 20px;
-    background: linear-gradient(to bottom right, #bd09b7, #6b4cf5);
     margin: 0 auto;
-    box-shadow: 15px 15px 10px gray;
+    background:linear-gradient(#bd09b7, #6b4cf5);
     color: #fff;
-    text-align: center;
-  }
-  
- 
-  .formulario h2 {
-    font-size: 34px;
-    margin-top: 0;
-    
-  }
-  
- 
-  .formulario label {
-    display: block; 
-    margin-top: 20px; 
-    font-size: 16px;
-    text-align: left; 
-  }
-  
-  .formulario input[type="email"], 
-  .formulario input[type="password"], 
-  .formulario select {
-    width: 100%;
-    padding: 7px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    border: none;
-    background: #f2f2f2;
-    font-size: 16px;
-    color: #333;
-  }
-  
- 
-  .formulario label input[type="checkbox"] {
-    margin-right: 5px;
-   
-  }
-  
-  
-  .formulario button {
-    display: block;
-    padding: 5px 15px;
-    border-radius: 5px;
-    border: none;
-    background: #bd09b7;
-    color: #fff;
-    font-size: 16px;
-    cursor: pointer;
-    font-weight: bold;
-    text-align: right
+    box-shadow: 20px 20px 10px gray;
 
-  }
- 
-  /*Bonus*/
+}
+
+.login-heading{
+    font-size: 35px;
+
+}
+
+.login-elements input{
+    padding:7px;
+    width: 100%;
+    display: inline-block;
+}
+
+.login-button{
+    padding:5px 15px 5px 15px;
+    position: relative;
+    top: 11px;
+    right: -180px;
+    cursor: pointer;
+}
+
+/*Bonus*/
 @media (min-width: 499px) { /**/
-  .login{
-      width: 100%;
-      
+    .login{
+        width: 100%;
+        
+    }
   }
-}
 @media (min-width: 500px) { /**/
-  .login{
-      width: 300px;
-      
+    .login{
+        width: 300px;
+        
+    }
   }
-}
-  
